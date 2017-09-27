@@ -64,9 +64,9 @@ The code for my perspective transform can be found in the function call `def img
 
 ```python
 src = np.float32(
-    [[120, 720],
-     [580, 450],
-     [750, 450],
+    [[200, 720],
+     [585, 450],
+     [700, 450],
      [1160, 720]])
 dst = np.float32(
     [[200,720],
@@ -79,9 +79,9 @@ The mapping of source and destination is as shown below.
 
 | Source        | Destination   |
 |:-------------:|:-------------:|
-| 120, 720      | 200, 720        |
-| 580, 450      | 200, 0      |
-| 750, 450     | 1080, 0      |
+| 200, 720      | 200, 720        |
+| 585, 450      | 200, 0      |
+| 700, 450     | 1080, 0      |
 | 1160, 720      | 1080, 720        |
 
 The below image shows a top view of with the defined `src` and `dst` points.
